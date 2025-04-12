@@ -19,4 +19,16 @@ You can test the bot in **two different ways**:
 ```bash
 python playerBot.py
 
+### 📄  Output Log
+A .txt file is generated as part of the submission. This output log includes:
+Top card on the pile
+Bot's current hand
+Chosen move
+Declared colour (for Wild cards)
+📁 Example log file: output_log.txt
 
+### 🛠️ Files
+File	Description
+main.py	Runs a full simulation of a 4-player UNO game
+playerBot.py	Contains your custom bot logic inside choose_card()
+output_log.txt	Captures the bot's decision-making steps for submission
